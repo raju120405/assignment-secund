@@ -1,4 +1,36 @@
-h1{
-    font-size: 1.3em;
-    color: blue;
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+   
+}
+/* Nav-style */
+.top-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #3A3A3A;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.nav-info{
+    padding: 34px;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    font-style: normal;
+}
+.nav-info a{
+text-decoration: none;
+}
+.info{
+    color: 
+    #3A3A3A;
+   margin-right: 34px; 
 }
