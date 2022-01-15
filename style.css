@@ -34,3 +34,23 @@ text-decoration: none;
     #3A3A3A;
    margin-right: 34px; 
 }
+/* top section */
+.top-secton{
+    margin-left: 120px;
+}
+.Influencer-title{
+    color:#3A3A3A;
+    font-size: 52px;
+}
+p{
+    color:#3A3A3A ;
+}
+button{
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    
+}
