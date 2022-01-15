@@ -76,13 +76,16 @@ button{
 /* collection style */
 .Popular-Collection{
     margin-left: 196px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
 .collection{
     width: 329px;
     height: 476px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    border-radius: 5px
+    border-radius: 5px;
+    margin-bottom: 30px;
     
 }
 .collection-thamnial{
@@ -101,12 +104,18 @@ button{
     color: #18191F;
     font-weight: 500;
     margin-left: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .dolar{
     color: rgba(0, 0, 0, 0.87);
     font-size: 24px;
     font-weight: normal;
     margin-left: 14px;
+    margin-top: 6px;
+    margin-bottom: 0;
+    
+    
 }
 .star{
     color: #FB8200;
@@ -132,4 +141,5 @@ button{
     font-weight: bold;
     line-height: 143%;
     margin-left: 14px;
+    margin-top: 0;
 }
