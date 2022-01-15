@@ -96,7 +96,7 @@ button{
 }
 .collection-thamnial img{
     width: 300px;
-    Height 256px;
+    Height: 256px;
     border-radius: 5px;
     
    
@@ -131,8 +131,8 @@ button{
     font-size: 14px;
     font-weight: bold;
     color: #5E6366;
-    Width 29px;
-    Height 22px;
+    Width: 29px;
+    Height: 22px;
     margin-left: 80px;
 
    
@@ -158,13 +158,15 @@ button{
 
 /* extra sextion */
 .blogers{
-    display: flex;
-    margin-left: 120px;
+    display: grid;
+grid-template-columns: repeat(2,1fr);
     margin-top: 54px;
+   
 }
 .live img{
     width: 404px;
     border-radius: 5px;
+    margin-left: 120px;
 }
 .live-info{
     position: absolute;
@@ -191,4 +193,43 @@ footer{
     color: white;
 
 }
+/* mobil */
 
+  @media screen and (max-width:688px) {
+     header{
+         width: 100%;
+     } 
+     .nav-menu{
+         display: block;
+     }
+  }
+  @media screen and (max-width:688px){
+      .container{
+          width: 100%;
+      }
+      .top-secton{
+          display: block;
+      }
+  }
+  @media screen and (max-width:688px){
+      .blogers{
+          width: 100%;
+      }
+      .blogers{
+          display: block;
+      }
+  }
+  @media screen and (max-width:688px){
+     .Popular-Collection{
+         width: 100%;
+     } 
+     .Popular-Collection{
+         display: grid;
+         grid-template-columns: repeat(1,1fr);
+     }
+  }
+  /* tab bobil */
+  @media only screen and(min-width:689px)and(max-width:992px) {
+    header{
+        width: 100%;}
+  }
