@@ -75,7 +75,8 @@ button{
 }
 /* collection style */
 .Popular-Collection{
-    margin-left: 196px;
+    margin-left: 150px;
+    margin-right: 120px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
@@ -86,6 +87,7 @@ button{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     margin-bottom: 30px;
+    
     
 }
 .collection-thamnial{
@@ -142,4 +144,42 @@ button{
     line-height: 143%;
     margin-left: 14px;
     margin-top: 0;
+}
+
+.see-more{
+    position: absolute;
+    width: 99px;
+    height: 24px;
+    left: 1100px;
+    text-decoration:none;
+    color: #E02C6D;
+    font-weight: 700;
+}
+
+/* extra sextion */
+.blogers{
+    display: flex;
+    margin-left: 120px;
+    margin-top: 54px;
+}
+.live img{
+    width: 404px;
+    border-radius: 5px;
+}
+.live-info{
+    position: absolute;
+width: 610px;
+height: 224px;
+left: 665px;
+
+}
+.join-now{
+    text-decoration: none;
+    color: white ;
+    background-color: #E02C6D;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 155px;
+    
 }
