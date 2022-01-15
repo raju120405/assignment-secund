@@ -35,8 +35,11 @@ text-decoration: none;
    margin-right: 34px; 
 }
 /* top section */
+
 .top-secton{
     margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
 }
 .Influencer-title{
     color:#3A3A3A;
@@ -53,4 +56,9 @@ button{
     height: 44px;
     border-radius: 41px;
     
+}
+.camera{
+    width: 440px;
+    height: 414px;
+   
 }
